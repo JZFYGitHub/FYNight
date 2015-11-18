@@ -3,7 +3,7 @@
 
 
 # 夜间模式的使用方式
-# 使用前的设置:
+## 使用前的设置:
 1-- pch文件的设置:
 在build Settings中搜索header, 找到Apple LLVM 7.0 - Language 下面的Prefix Header.
 在后面设置:
@@ -16,7 +16,7 @@ $(SRCROOT)/夜间/Night/PrefixHeader.pch
 
 
 
-# 背景颜色的设置
+## 背景颜色的设置
 1—在AppDelegate中首先设置是否是夜间模式(这里使用的是NSUserDefaults)
 [ThemeManage shareThemeManage].isNight = [[NSUserDefaults standardUserDefaults] boolForKey:@"night"];
 
@@ -36,9 +36,9 @@ Label中字体颜色的设置
 [label NightWithType:UIViewColorTypeNormal];
 
 
-# 夜间模式颜色的自定义
+## 夜间模式颜色的自定义
 
-# 背景颜色的自定义
+### 背景颜色的自定义
 1—	在ThemeManage中设置需要添加的颜色
 例如:
 @property(nonatomic, retain)UIColor *color2;
@@ -50,7 +50,7 @@ Label中字体颜色的设置
 这样就可以使用UIViewColorType2了.
 
 
-# UILabel字体颜色的自定义
+### UILabel字体颜色的自定义
 前两步与上面的一致
 3--- 在UILabel+ThemeChange中添加对应的颜色属性
 注意: LabelColorBlack一定要放在第一个, 不用动, 这是系统默认的颜色,如果你修改后, label以及button上的颜色就会改变, 添加请在最后添加
