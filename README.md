@@ -6,29 +6,29 @@
 ## 使用前的设置:
 1-- pch文件的设置:
 在build Settings中搜索header, 找到Apple LLVM 7.0 - Language 下面的Prefix Header.
-在后面设置:
-$(SRCROOT)/夜间/Night/PrefixHeader.pch
+\n在后面设置:
+'<$(SRCROOT)/夜间/Night/PrefixHeader.pch>'
 夜间: 工程名称
 
 2—设置UIView+RemoveNotifition 为MRC
 
-在 Build Phases 下的Compile Sources找到UIView+RemoveNotifition, 设置其为 -fno-objc-arc.
+在 Build Phases 下的Compile Sources找到UIView+RemoveNotifition, 设置其为 '<-fno-objc-arc.>'
 
 
 
 ## 背景颜色的设置
 1—在AppDelegate中首先设置是否是夜间模式(这里使用的是NSUserDefaults)
-[ThemeManage shareThemeManage].isNight = [[NSUserDefaults standardUserDefaults] boolForKey:@"night"];
+'<[ThemeManage shareThemeManage].isNight = [[NSUserDefaults standardUserDefaults] boolForKey:@"night"];>'
 
 2—为每一个控件设置颜色
 调用NightWithType方法
-[控件 NightWithType:UIViewColorTypeNormal];
+'<[控件 NightWithType:UIViewColorTypeNormal];>'
 
 3—模式切换方法
 //改变单例中的isNight
-[ThemeManage shareThemeManage].isNight = ![ThemeManage shareThemeManage].isNight;
+'<[ThemeManage shareThemeManage].isNight = ![ThemeManage shareThemeManage].isNight;>'
 //发送改变颜色通知
-[[NSNotificationCenter defaultCenter] postNotificationName:@"changeColor" object:nil]; 
+'<[[NSNotificationCenter defaultCenter] postNotificationName:@"changeColor" object:nil]; '>
 //修改沙盒信息
 [[NSUserDefaults standardUserDefaults] setBool:[ThemeManage shareThemeManage].isNight forKey:@"night"];
 
