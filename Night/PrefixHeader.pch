@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  夜间模式9-27
+//
+//  Created by dllo on 15/9/27.
+//  Copyright (c) 2015年 直到世界的尽头. All rights reserved.
+//
+
+#ifndef ____9_27_PrefixHeader_pch
+#define ____9_27_PrefixHeader_pch
+
+#import "ThemeManage.h"
+#import "UIView+ThemeChange.h"
+#import "UILabel+ThemeChange.h"
+#import "UIButton+ThemeChange.h"
+#import "UITabBar+ThemeChange.h"
+#import "UINavigationBar+ThemeChange.h"
+#import "UIView+RemoveNotifition.h"
+
+#endif
