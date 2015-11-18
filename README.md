@@ -4,15 +4,15 @@
 
 # 夜间模式的使用方式
 ## 使用前的设置:
-1-- pch文件的设置:
-在build Settings中搜索header, 找到Apple LLVM 7.0 - Language 下面的Prefix Header.
-\n在后面设置:
-'$(SRCROOT)/夜间/Night/PrefixHeader.pch'
-夜间: 工程名称
+ - 1-- pch文件的设置:
+ - 在build Settings中搜索header, 找到Apple LLVM 7.0 - Language 下面的Prefix Header.
+ - 在后面设置:
+ - '$(SRCROOT)/夜间/Night/PrefixHeader.pch'
+ - 夜间: 工程名称
 
-2—设置UIView+RemoveNotifition 为MRC
+ - 2—设置UIView+RemoveNotifition 为MRC
 
-在 Build Phases 下的Compile Sources找到UIView+RemoveNotifition, 设置其为 '<-fno-objc-arc.>'
+ - 在 Build Phases 下的Compile Sources找到UIView+RemoveNotifition, 设置其为 '<-fno-objc-arc.>'
 
 
 
