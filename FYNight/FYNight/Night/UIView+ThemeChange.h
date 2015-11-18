@@ -10,7 +10,7 @@
 
 //颜色的定义(一个代表一套)
 typedef NS_ENUM(NSInteger, UIViewColorType) {
-    /**白天白色, 夜间灰色*/
+    /**白天白色, 夜间黑色*/
     UIViewColorTypeNormal,
     /**白天蓝色, 夜间黑色*/
     UIViewColorType1,
