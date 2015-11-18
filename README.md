@@ -52,7 +52,7 @@ Label中字体颜色的设置
 
 ### UILabel字体颜色的自定义
 前两步与上面的一致
-3--- 在UILabel+ThemeChange中添加对应的颜色属性
+3—  在UILabel+ThemeChange中添加对应的颜色属性
 注意: LabelColorBlack一定要放在第一个, 不用动, 这是系统默认的颜色,如果你修改后, label以及button上的颜色就会改变, 添加请在最后添加
 
 
