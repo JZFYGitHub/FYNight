@@ -7,7 +7,7 @@
 1-- pch文件的设置:
 在build Settings中搜索header, 找到Apple LLVM 7.0 - Language 下面的Prefix Header.
 \n在后面设置:
-'<$(SRCROOT)/夜间/Night/PrefixHeader.pch>'
+'$(SRCROOT)/夜间/Night/PrefixHeader.pch'
 夜间: 工程名称
 
 2—设置UIView+RemoveNotifition 为MRC
