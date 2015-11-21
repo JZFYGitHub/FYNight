@@ -20,10 +20,10 @@
     self.title = @"第二页";
     [self.view NightWithType:UIViewColorType1];
     
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 100, 40)];
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(125, 125, 125, 40)];
     [label NightTextType:LabelColorGray];
     [label NightWithType:UIViewColorTypeClear];
-    label.text = @"第二页";
+    label.text = @"第二个tabBar";
     [self.view addSubview:label];
 }
 

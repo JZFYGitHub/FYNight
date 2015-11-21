@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490D1EBA1C002F7000B55F98 /* moshi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 490D1EB81C002F7000B55F98 /* moshi@2x.png */; settings = {ASSET_TAGS = (); }; };
+		490D1EBB1C002F7000B55F98 /* shouye@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 490D1EB91C002F7000B55F98 /* shouye@2x.png */; settings = {ASSET_TAGS = (); }; };
 		4955041E1BFB525500A97C3C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4955041D1BFB525500A97C3C /* SecondViewController.m */; settings = {ASSET_TAGS = (); }; };
 		495504211BFB527F00A97C3C /* NextCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 495504201BFB527F00A97C3C /* NextCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
 		498F58CA1BFC0093006A7BF9 /* UIView+RemoveNotifition.m in Sources */ = {isa = PBXBuildFile; fileRef = 498F58C91BFC0093006A7BF9 /* UIView+RemoveNotifition.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -46,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		490D1EB81C002F7000B55F98 /* moshi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moshi@2x.png"; sourceTree = "<group>"; };
+		490D1EB91C002F7000B55F98 /* shouye@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shouye@2x.png"; sourceTree = "<group>"; };
 		4955041C1BFB525500A97C3C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		4955041D1BFB525500A97C3C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		4955041F1BFB527F00A97C3C /* NextCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextCollectionViewController.h; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 		49C46B701BF9EC9700B7ADCF /* FYNight */ = {
 			isa = PBXGroup;
 			children = (
+				490D1EB81C002F7000B55F98 /* moshi@2x.png */,
+				490D1EB91C002F7000B55F98 /* shouye@2x.png */,
 				498F58CD1BFC38D0006A7BF9 /* rijian@2x.png */,
 				498F58CE1BFC38D0006A7BF9 /* yejian@2x.png */,
 				49C46BA41BF9ECAF00B7ADCF /* Night */,
@@ -306,9 +312,11 @@
 			files = (
 				498F58CF1BFC38D0006A7BF9 /* rijian@2x.png in Resources */,
 				498F58D01BFC38D0006A7BF9 /* yejian@2x.png in Resources */,
+				490D1EBA1C002F7000B55F98 /* moshi@2x.png in Resources */,
 				49C46B811BF9EC9700B7ADCF /* LaunchScreen.storyboard in Resources */,
 				49C46B7E1BF9EC9700B7ADCF /* Assets.xcassets in Resources */,
 				49C46B7C1BF9EC9700B7ADCF /* Main.storyboard in Resources */,
+				490D1EBB1C002F7000B55F98 /* shouye@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

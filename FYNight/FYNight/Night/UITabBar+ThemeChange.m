@@ -15,6 +15,7 @@
     [super changeColor];
     
     [self setBarTintColor:[ThemeManage shareThemeManage].bgColor];
+    [self setTintColor:[ThemeManage shareThemeManage].navBarColor];
 }
 
 @end

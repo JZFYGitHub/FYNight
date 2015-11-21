@@ -30,10 +30,12 @@
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     //设置navigationBar的夜间模式状态
     [nav.navigationBar NightWithType:UIViewColorTypeNormal];
+    vc.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"首页" image:[UIImage imageNamed:@"shouye"] tag:1000];
     
     SecondViewController *secondVC = [[SecondViewController alloc] init];
     UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:secondVC];
     [nav1.navigationBar NightWithType:UIViewColorTypeNormal];
+    secondVC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"第二页" image:[UIImage imageNamed:@"moshi"] tag:1001];
     
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     [tabBarController.tabBar NightWithType:UIViewColorTypeNormal];
